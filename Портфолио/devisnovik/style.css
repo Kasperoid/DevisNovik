@@ -6,11 +6,11 @@
   font-family: Ubuntu;
 }
 h3 {
-  font-size: 40px;
+  font-size: 400%;
   padding-bottom: 15px;
 }
 p {
-  font-size: 20px;
+  font-size: 150%;
 }
 a {
   text-decoration: none;
@@ -65,10 +65,7 @@ hr {
 }
 .about_me {
   text-align: center;
-  padding: 50px 0;
-}
-.about_me p {
-  padding-bottom: 25px;
+  padding: 50px 0 75px 0;
 }
 .skill_list {
   display: flex;
@@ -102,6 +99,7 @@ hr {
 .Portfolio {
   width: 100%;
   background-color: rgb(246, 246, 246);
+  padding-bottom: 100px;
 }
 .porfolio-card {
   display: flex;
@@ -115,9 +113,6 @@ hr {
   color: black;
   text-decoration: underline;
   margin-top: 45px;
-}
-.porfolio-card {
-  padding-bottom: 100px;
 }
 footer {
   text-align: center;
@@ -139,7 +134,9 @@ footer {
   margin: 85px auto 45px auto;
   justify-content: space-between;
 }
-
+.porfolio-card:not(:last-child) {
+  margin-bottom: 40px;
+}
 .logo-container + p {
   color: #828282;
   font-weight: 300;
